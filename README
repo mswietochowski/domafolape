@@ -1,0 +1,39 @@
+domafolape - documents management for lazy people.
+
+== Overview ==
+
+I have a need to scan single- and multi-page documents with ADF scanner
+(I'm using Brother MFC5460CN at the moment) and store them on my computer.
+I want to assign these scanned documents some numbers, envelope numbers.
+Then I would scan my documents, put them in appropriate, numbered envelopes,
+put envelopes in box(es), and put boxes at the very bottom of my closet.
+
+All that fuss will be made, because when I need some specific document,
+I would rather search their electronic images than search real paper sheets.
+And if I needed a real paper document I will know exactly where it is (which
+box, which envelope, and there will be only a few documents in envelope, so
+it would be easy then). It's kind of a hashtable for real life documents.
+
+If I will have some time I will add bells and whistles:
+ * fulltext search with help of OCR
+ * tagging, categorizing
+ * cloud-backed storage, for backup and redundancy
+ * encryption, for security (must-have in a cloud!)
+ * making tee (with help of lego mindstorm or some simple kind of robot)
+ 
+If you find this software useful - let me know. It will encourage me to
+develop it even more, suggestions and bug reports are especially welcome.
+If you don't, I'll probably end up with something barely useful, pretty ugly
+piece of software that will lose or corrupt your precious files on first
+possible occasion.
+
+== Technology ==
+
+I'm willing to create web application, but I will start with regular gui app,
+probably using Windows Presentation Foundation, definitely in C#.
+
+For scanner-related technology, I'm willing to use Windows Image Acquisition libraries.
+
+Wish me luck :-)
+
+I really appreciate you read all of that.
